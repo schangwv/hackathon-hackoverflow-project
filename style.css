@@ -1,7 +1,4 @@
-#what {
-    text-align: center;
-}
-
-#where {
+p {
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
 }
