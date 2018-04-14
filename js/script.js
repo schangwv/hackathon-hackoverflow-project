@@ -1,13 +1,24 @@
-// put locations in a vector-like data structure
-var locations = [Hoover Tower, Herbert Hoover Memorial Exhibit Pavilion, Anderson Collection, Cantor Arts Center, Bing Concert Hall, Dinkelspiel Auditorium, Memorial Auditorium, Memorial Church, Jasper Ridge Biological Preserve, Oval];
+"use strict";
 
+ // randomizes types of activities or locations and their associated details
 
-// randomly output a location and store it in a location variable
+function Locations() {
+	var locationMap = {
+  "Sports": ["Cardinal Wrestling Club", "Stanford Climbing Walls"],
+  "Stanford Anderson Collection": ["Make a meme from an artwork", "Convince a stranger of a story about an artwork of your chosing", "Visit the security guard's colleciton favorite"],
+	"Boxing": ["Urban Combat", "Studio Kicks"],
+	"Museum": ["Computer History Museum", "Tech Museum of Innovation", "Intel Museum"],
+  "Drag Show": ["Aunt Charlie's Lounge", "The Starlight Room", "Oasis"]
+	};
 
-// put activities in a vector-like data structure
-
-// randomly output an activity and store it in an activity variable
-
-// print out activity + location
-document.getElementById("location").innerHTML = location
-document.getElementById("activity").innerHTML = activity
+	var keys = Array.from(Object.keys(locationMap));
+	var what = document.getElementById("what");
+	var where = document.getElementById("where");
+	console.log(keys);
+	var location = keys[Math.floor(Math.random()*keys.length)]
+  what.innerHTML = location;
+	var value = locationMap[location];
+	where.innerHTML = value[Math.floor(Math.random()*value.length)];
+	console.log(Math.floor(Math.random()*value.length));
+	console.log(locationMap[location]);
+}
