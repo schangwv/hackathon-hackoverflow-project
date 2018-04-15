@@ -1,8 +1,9 @@
 p {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    text-align: center;
-    font-size: 30px;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 60px;
 }
+
 h1 {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
