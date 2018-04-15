@@ -1,23 +1,9 @@
 p {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
+    font-size: 30px;
 }
-/* unvisited link */
-a:link {
-    color: white;
-}
-
-/* visited link */
-a:visited {
-    color: #b3ccff;
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: blue;
+h1 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
 }
