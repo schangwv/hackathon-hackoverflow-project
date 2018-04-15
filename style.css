@@ -1,33 +1,28 @@
 p {
   font-family: 'Nunito', sans-serif;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
 }
 
-h1 {
-    font-family: 'Nunito', sans-serif;
-    
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+img {
+  width:15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-body{
-  background: #0cebeb;  /* fallback for old browsers */
+body {
   background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
 }
 
-.button { 
+.button {
   font-family: 'Nunito', sans-serif;
-  background-color: #424242; 
-  text-align: center;
-  width: 10%; 
-  margin: 0px auto; 
-} 
+  background-color: #424242;
+  width: 10%;
+  margin: 0px auto;
+}
