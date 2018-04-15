@@ -4,9 +4,9 @@
 
 function Locations() {
 	var locationMap = {
-  "Sports": ["Cardinal Wrestling Club", "Stanford Climbing Walls"],
+  "Stanford Climbing Walls": ["Race your friend to the top", "Climb in the form of your favorite animal"],
   "Stanford Anderson Collection": ["Make a meme from an artwork", "Convince a stranger of a story about an artwork of your chosing", "Visit the security guard's colleciton favorite"],
-	"Boxing": ["Urban Combat", "Studio Kicks"],
+	"Boxing": ["visit Urban Combat", "visit Studio Kicks"],
 	"Museum": ["Computer History Museum", "Tech Museum of Innovation", "Intel Museum"],
   "Drag Show": ["Aunt Charlie's Lounge", "The Starlight Room", "Oasis"]
 	};
