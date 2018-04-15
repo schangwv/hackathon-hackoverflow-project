@@ -14,3 +14,9 @@ body{
   background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
 }
+
+.button { 
+  background-color: #4CAF50; 
+  width: 50%; 
+  margin: 0px auto; 
+} 
