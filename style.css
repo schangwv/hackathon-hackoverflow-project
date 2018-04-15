@@ -2,3 +2,22 @@ p {
     font-family: "Courier New", Courier, monospace;
     text-align: center;
 }
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #b3ccff;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
