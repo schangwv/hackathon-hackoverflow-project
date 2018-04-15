@@ -2,11 +2,20 @@ p {
   font-family: 'Nunito', sans-serif;
   color: white;
   font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 h1 {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: 'Nunito', sans-serif;
+    
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 body{
@@ -16,7 +25,9 @@ body{
 }
 
 .button { 
-  background-color: #4CAF50; 
-  width: 50%; 
+  font-family: 'Nunito', sans-serif;
+  background-color: #424242; 
+  text-align: center;
+  width: 10%; 
   margin: 0px auto; 
 } 
